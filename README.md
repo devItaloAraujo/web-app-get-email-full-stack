@@ -16,7 +16,7 @@ Os componentes da aplicação (back, front e database) são dividos em container
 - Tenha instalado o Node.
 - Tenha instalado o Docker Compose.
 - Clone esse repositório em uma pasta em seu computador.
-- Dentro da pasta rode o seguinte comando no terminal: **npm start**
+- Entre na pasta clonada e rode o seguinte comando no terminal: **npm start**
 - Pronto! Acesse a interface do front-end em: 
   ➜  Local:   http://localhost:3000/
 
