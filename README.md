@@ -4,7 +4,7 @@ Esse simples projeto se trata de uma aplicação **Node** web full-stack complet
 
 Esse projeto foi desenvolvido possuindo uma arquitetura bem direta e auto-explicativa com o lado do servidor desenvolvido na pasta back-end e o lado do cliente desenvolvido na pasta front-end.
 
-No back-end foram utilizados JavasCript e TypeScript, com as blibliotecas **Express** (para gerenciar as chamadas a API) e **Sequelize** (um ORM para gerenciar o banco de dados em **MySQL**).
+No back-end foram utilizados JavaScript e TypeScript, com as blibliotecas **Express** (para gerenciar as chamadas a API) e **Sequelize** (um ORM para gerenciar o banco de dados em **MySQL**).
 
 No front-end foi utilizado JavasCript e a biblioteca **React** com Vite para gerar a interface que o usuário interage com a aplicação.
 
