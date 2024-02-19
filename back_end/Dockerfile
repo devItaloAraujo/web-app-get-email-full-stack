@@ -5,11 +5,8 @@ USER node
 
 WORKDIR /app
 
-COPY --chown=node:node package*.json ./
+COPY . .
 
 RUN npm install
-
-COPY --chown=node:node back_end/src src
-COPY --chown=node:node tsconfig.json .
 
 ENTRYPOINT ["npm", "run", "db:create"]

@@ -4,7 +4,7 @@ services:
   # Serviço que irá rodar o node
   app-redway-email:
     # Imagem base do container
-    build: .
+    build: ./back_end
     user: node
     # Nome do container para facilitar execução
     container_name: redway_api
@@ -17,10 +17,10 @@ services:
     # Restarta a imagem caso algo a faça parar
     # restart: always
     # Lista de volumes (diretórios) mapeados de fora para dentro do container
-    volumes:
-      # Monta o diretório atual, com todos os dados do projeto, 
-      # dentro do diretório /app
-      - ./:/app
+    # volumes:
+    #   # Monta o diretório atual back_end, com todos os dados do projeto, 
+    #   # dentro do diretório /app
+    #   - ./back_end/:/app
     # Lista de serviços do qual este serviço depende
     depends_on:
       # Precisa do banco funcionando antes de subir o node
@@ -50,3 +50,18 @@ services:
       - 3306:3306
     environment:
       MYSQL_ROOT_PASSWORD: password
+
+  # Serviço que irá rodar o front-end
+  front_end:
+    container_name: redway_front
+    build: ./front_end
+    # Mesmo que `docker run -t`
+    tty: true
+    # Mesmo que `docker run -i`
+    stdin_open: true
+    # volumes:
+    #   - ./front_end/:/app  
+    ports:
+      - 3000:3000
+    depends_on:
+      - app-redway-email
