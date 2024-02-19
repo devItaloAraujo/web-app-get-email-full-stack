@@ -1,17 +1,20 @@
 .email-list {
+    display: flex;
     margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  tr {
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
   }
   
-  .email-list h2 {
-    margin-bottom: 10px;
+  thead {
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
   }
-  
-  .email-list ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .email-list li {
-    margin-bottom: 5px;
-  }
+
   

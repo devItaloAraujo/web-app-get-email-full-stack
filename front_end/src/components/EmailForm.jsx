@@ -12,11 +12,11 @@ const EmailForm = ({ onSubmit }) => {
 
   return (
     <div className="email-form">
-      <h2>Enviar Email</h2>
+      <h2>Armazenar e-mail</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
-          placeholder="Digite seu email"
+          placeholder="Digite seu e-mail"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "get email and save in database",
   "scripts": {
-    "start": "docker-compose up --build -d && docker logs redway_front"
+    "start": "docker-compose up --build -d; npm run logs",
+    "logs": "docker logs -f redway_front"
   },
   "author": "Italo Araujo",
   "license": "ISC"
