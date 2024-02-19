@@ -6,7 +6,7 @@ Esse projeto foi desenvolvido possuindo uma arquitetura bem direta e auto-explic
 
 No back-end foram utilizados JavaScript e TypeScript, com as blibliotecas **Express** (para gerenciar as chamadas a API) e **Sequelize** (um ORM para gerenciar o banco de dados em **MySQL**).
 
-No front-end foi utilizado JavasCript e a biblioteca **React** com Vite para gerar a interface que o usuário interage com a aplicação.
+No front-end foi utilizado JavaScript e a biblioteca **React** com Vite para gerar a interface que o usuário interage com a aplicação.
 
 Foram seguidos os príncipios **REST** para a API, isso é evidente na separação por camadas e componentes. Dessa maneira fica mais facil escalar a aplicação e também realizar sua manutenção a longo prazo.
 
