@@ -1,0 +1,17 @@
+.email-list {
+    margin-top: 20px;
+  }
+  
+  .email-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .email-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .email-list li {
+    margin-bottom: 5px;
+  }
+  
