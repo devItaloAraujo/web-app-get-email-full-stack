@@ -34,7 +34,7 @@ O comando **npm start** é um script que vai utilizar o docker-compose para orqu
 **Back-End, arquitetura em camadas API RESTful:**
 ![Captura de tela de 2024-02-19 18-57-45](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/6c163101-b6ae-42b5-bbee-7715ba1c85ed)
 
-**Base de dados observada pelo MySQL WorkBench**
+**Base de dados observada pelo MySQL Workbench:**
 ![Captura de tela de 2024-02-19 18-55-55](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/642681d5-505a-40b1-8f8b-fa6c9d63c71a)
 
 
