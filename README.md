@@ -15,7 +15,7 @@ On the front-end, JavaScript and the **React** library with Vite were used to ge
 
 **REST** principles were followed for the API, which is evident in the separation by layers and components. This makes it easier to scale the application and also to perform long-term maintenance.
 
-The application components (back, front, and database) are divided into Docker containers and are independent. Communication between them is done through docker-compose.
+The application components (back, front, and database) are divided into **Docker** containers and are independent. Communication between them is done through docker-compose.
 
 ## Starting the project locally:
 - Make sure Node is installed.
@@ -59,7 +59,7 @@ No front-end foi utilizado JavaScript e a biblioteca **React** com Vite para ger
 
 Foram seguidos os príncipios **REST** para a API, isso é evidente na separação por camadas e componentes. Dessa maneira fica mais facil escalar a aplicação e também realizar sua manutenção a longo prazo.
 
-Os componentes da aplicação (back, front e database) são dividos em containers do Docker e são independentes. A comunicação entre eles é realizada pelo docker-compose.
+Os componentes da aplicação (back, front e database) são dividos em containers do **Docker** e são independentes. A comunicação entre eles é realizada pelo docker-compose.
 
 ## Iniciando o projeto localmente:
 - Tenha instalado o Node.
