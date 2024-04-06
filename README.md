@@ -1,9 +1,9 @@
+# Redway Get Email Project
+
 <details> 
   <summary>
     [English]
   </summary>
-
-# Redway Get Email Project
 
 This simple project is a complete full-stack **Node** web application that collects user email through a form and stores it in a database.
 
@@ -48,8 +48,6 @@ The **npm start** command is a script that will use docker-compose to orchestrat
   <Summary>
     [Português]
   </Summary>
-
-# Projeto Redway Get Email
 
 Esse simples projeto se trata de uma aplicação **Node** web full-stack completa que coleta o email do usuário através de um formulário e o armazena em um banco de dados.
 
