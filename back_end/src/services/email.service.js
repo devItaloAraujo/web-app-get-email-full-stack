@@ -1,9 +1,7 @@
-import ProductModel from '../database/models/emails.model';
-import { Email } from '../type';
+const ProductModel = require('../database/models/emails.model');
 
-
-async function insertNew(input: Email) {
-  const { dataValues } = await ProductModel.create(input);
+async function insertNew(input) {
+  const { dataValues } = await (ProductModel.create(input));
   const { id, email } = dataValues;
   return { status: 201, data: { id, email } };
 }
@@ -13,7 +11,7 @@ async function findAll() {
   return { status: 200, data };
 }
 
-export default {
+module.exports ={
   insertNew,
   findAll,
 };

@@ -1,7 +1,7 @@
-const { DataTypes } = require('sequelize');
+const DataTypes = require('sequelize').DataTypes;
 
 module.exports = {
-  up(queryInterface) {
+  up: (queryInterface) => {
     return queryInterface.createTable('emails', {
       id: {
         type: DataTypes.INTEGER.UNSIGNED,

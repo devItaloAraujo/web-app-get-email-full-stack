@@ -3,8 +3,13 @@ import EmailForm from './components/EmailForm';
 import EmailList from './components/EmailList';
 import './App.css';
 
-const App = () => {
-  const [emails, setEmails] = useState([]);
+interface Email {
+  id: number;
+  email: string;
+}
+
+const App: React.FC = () => {
+  const [emails, setEmails] = useState<Email[]>([]);
 
   const fetchEmails = async () => {
     try {
@@ -23,7 +28,7 @@ const App = () => {
     fetchEmails();
   }, []);
 
-  const handleSubmitEmail = async (email) => {
+  const handleSubmitEmail = async (email: string) => {
     try {
       const response = await fetch('http://localhost:3001/email', {
         method: 'POST',

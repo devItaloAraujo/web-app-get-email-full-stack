@@ -1,5 +1,6 @@
-import { DataTypes, Model, ModelDefined, Optional } from 'sequelize';
-import db from './index';
+
+const db = require('./index');
+const DataTypes = require('sequelize').DataTypes;
 
 
 const EmailModel = db.define('email', {
@@ -18,4 +19,4 @@ const EmailModel = db.define('email', {
   underscored: true,
 });
 
-export default EmailModel;
+module.exports = EmailModel;

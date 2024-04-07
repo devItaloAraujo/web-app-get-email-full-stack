@@ -1,6 +1,6 @@
-import express from 'express';
-import emailController from './controllers/email.controller';
-import cors from 'cors';
+const express = require('express');
+const emailController = require('./controllers/email.controller');
+const cors = require('cors');
 
 const app = express();
 app.use(express.json());
@@ -11,5 +11,4 @@ app.use(cors());
 app.post('/email', emailController.insertNew);
 app.get('/email', emailController.findAll);
 
-
-export default app;
+module.exports = app;

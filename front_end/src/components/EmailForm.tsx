@@ -1,13 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, ChangeEvent, FormEvent } from 'react';
 import './EmailForm.css';
 
-const EmailForm = ({ onSubmit }) => {
-  const [email, setEmail] = useState('');
+interface EmailFormProps {
+  onSubmit: (email: string) => void;
+}
 
-  const handleSubmit = (e) => {
+const EmailForm: React.FC<EmailFormProps> = ({ onSubmit }) => {
+  const [email, setEmail] = useState<string>('');
+
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     onSubmit(email);
     setEmail('');
+  };
+
+  const handleEmailChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setEmail(e.target.value);
   };
 
   return (
@@ -18,7 +26,7 @@ const EmailForm = ({ onSubmit }) => {
           type="email"
           placeholder="Digite seu e-mail"
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={handleEmailChange}
           required
         />
         <button type="submit">Enviar</button>
