@@ -30,9 +30,11 @@ The **npm start** command is a script that will use docker-compose to orchestrat
 ## Screenshots:
 
 **Front-end interface:**
+
 ![Front-end screenshot](https://github.com/devItaloAraujo/web-app-get-email-full-stack/assets/45125829/86c85c31-139e-40a2-aaf4-c76a0b5daa84)
 
 **Database viewed by MySQL Workbench:**
+
 ![Database screenshot](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/642681d5-505a-40b1-8f8b-fa6c9d63c71a)
 
 </details>
@@ -68,9 +70,11 @@ O comando **npm start** é um script que vai utilizar o docker-compose para orqu
 ## Imagens:
 
 **Interface do front-end:**
+
 ![Captura de tela de 2024-02-19 18-55-29](https://github.com/devItaloAraujo/web-app-get-email-full-stack/assets/45125829/86c85c31-139e-40a2-aaf4-c76a0b5daa84)
 
 **Base de dados observada pelo MySQL Workbench:**
+
 ![Captura de tela de 2024-02-19 18-55-55](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/642681d5-505a-40b1-8f8b-fa6c9d63c71a)
 
 </Details>
