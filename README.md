@@ -30,13 +30,7 @@ The **npm start** command is a script that will use docker-compose to orchestrat
 ## Screenshots:
 
 **Front-end interface:**
-![Front-end screenshot](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/59267e94-11cb-462f-afc3-b0cef1b3af43)
-
-**Front-end code, component-based development:**
-![Front-end code screenshot](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/0f2e4b94-81e0-4d91-879d-95654f996a1d)
-
-**Back-End, layered RESTful API architecture:**
-![Back-end screenshot](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/6c163101-b6ae-42b5-bbee-7715ba1c85ed)
+![Front-end screenshot](https://github.com/devItaloAraujo/web-app-get-email-full-stack/assets/45125829/86c85c31-139e-40a2-aaf4-c76a0b5daa84)
 
 **Database viewed by MySQL Workbench:**
 ![Database screenshot](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/642681d5-505a-40b1-8f8b-fa6c9d63c71a)
@@ -74,14 +68,7 @@ O comando **npm start** é um script que vai utilizar o docker-compose para orqu
 ## Imagens:
 
 **Interface do front-end:**
-![Captura de tela de 2024-02-19 18-55-29](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/59267e94-11cb-462f-afc3-b0cef1b3af43)
-
-**Codigo Front-end, desenvolvimento em componentes:**
-![Captura de tela de 2024-02-19 19-02-20](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/0f2e4b94-81e0-4d91-879d-95654f996a1d)
-
-
-**Back-End, arquitetura em camadas API RESTful:**
-![Captura de tela de 2024-02-19 18-57-45](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/6c163101-b6ae-42b5-bbee-7715ba1c85ed)
+![Captura de tela de 2024-02-19 18-55-29](https://github.com/devItaloAraujo/web-app-get-email-full-stack/assets/45125829/86c85c31-139e-40a2-aaf4-c76a0b5daa84)
 
 **Base de dados observada pelo MySQL Workbench:**
 ![Captura de tela de 2024-02-19 18-55-55](https://github.com/devItaloAraujo/redway_get_email/assets/45125829/642681d5-505a-40b1-8f8b-fa6c9d63c71a)
