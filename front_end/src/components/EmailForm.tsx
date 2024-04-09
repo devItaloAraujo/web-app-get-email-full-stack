@@ -20,16 +20,16 @@ const EmailForm: React.FC<EmailFormProps> = ({ onSubmit }) => {
 
   return (
     <div className="email-form">
-      <h2>Armazenar e-mail</h2>
+      <h2>Store emails</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
-          placeholder="Digite seu e-mail"
+          placeholder="Type your email"
           value={email}
           onChange={handleEmailChange}
           required
         />
-        <button type="submit">Enviar</button>
+        <button type="submit">Save on database</button>
       </form>
     </div>
   );

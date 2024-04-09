@@ -13,12 +13,12 @@ interface EmailListProps {
 const EmailList: React.FC<EmailListProps> = ({ emails }) => {
   return (
     <div className="email-list">
-      <h2>E-mails no banco de dados</h2>
+      <h2>Saved emails</h2>
       <table>
         <thead>
           <tr>
             <th>ID</th>
-            <th>E-mail</th>
+            <th>Email</th>
           </tr>
         </thead>
         <tbody>
